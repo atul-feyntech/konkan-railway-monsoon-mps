@@ -14,13 +14,13 @@ files = {
 st.title("Konkan Railway Monsoon MPS")
 st.subheader("Maximum Permissible Speed for Different Rolling Stock of Konkan Railways")
 
-# Dropdown for selecting the type of rolling stock
-rolling_stock_type = st.selectbox("Select the Type of Rolling Stock", list(files.keys()))
+# Radio buttons for selecting the type of rolling stock
+rolling_stock_type = st.radio("Select the Type of Rolling Stock", list(files.keys()))
 
-# Dropdown for selecting the specific type within the selected rolling stock
+# Radio buttons for selecting the specific type within the selected rolling stock
 df = files[rolling_stock_type]
 type_column = "Type" if "Type" in df.columns else df.columns[0]
-selected_type = st.selectbox(f"Select the {type_column}", df[type_column].unique())
+selected_type = st.radio(f"Select the {type_column}", df[type_column].unique())
 
 # Display the relevant data row for the selected type
 selected_row = df[df[type_column] == selected_type].squeeze()
@@ -33,7 +33,7 @@ for column, value in selected_row.items():
 st.markdown("""
     <style>
     /* Adjust the text and layout to be more readable on phones */
-    .stSelectbox, .stTextInput, .stTextArea {
+    .stRadio {
         font-size: 18px;
     }
     /* Ensure text wraps properly and is easy to read */
