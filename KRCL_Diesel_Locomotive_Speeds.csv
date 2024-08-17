@@ -1,0 +1,15 @@
+Type of Loco,Axle load (Ton),Loco Hauling Power (HP),Maximum Loco speed over KRCL (kmph)
+WDM2,18.8,2600,110
+WDM3A,18.8,3100,120 (On short hood leading)
+WDM3D,19.5,3300,120 (On short hood leading)
+WDP3A,19.5,3100,120
+WDP4,19.5,4000,120 (On short hood leading)
+WDP4B,20.2,4500,110
+WDP4D,20.5,4500,110
+WDG3A,20.5,3100,105
+WDG4,21.0,4000,105
+WDG4D,21.7,4500,100
+WDG5,22.3,5500,80
+WDG4G,22.0,4500,90
+WDG6G,23.0,6000,90
+WAG12B (TWIN Bo-Bo),22.5,12000,90

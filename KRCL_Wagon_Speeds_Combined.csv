@@ -1,0 +1,26 @@
+Wagon,MPS in 'Loaded' condition,MPS in 'Empty' condition
+CC+6 (All Goods wagons except BCN),60 kmph,60 kmph
+BCNHL,60 kmph (CC+8+2t),70 kmph
+BOXNHL,60 kmph (CC+8+2t),100 kmph
+BCCNR,75 kmph,75 kmph
+BCBFG,75 kmph,75 kmph
+BLLA/BLLB,100 kmph,100 kmph
+BLCA/BLCB,100 kmph,100 kmph
+BLCS,50 kmph (with loaded container in single stack condition),65 kmph (without any container and with empty container in single stack condition)
+BWTB,60 kmph,65 kmph
+EUK,40 kmph,40 kmph
+NMHG,110 kmph,110 kmph (Max permissible speed on Bridge No. 2239 @ Km 739/0-1 between TOK-JOKT is 65 kmph)
+BCACBM,90 kmph,90 kmph
+BCNA,75 kmph,75 kmph
+BCNM1,75 kmph,80 kmph
+BOXNM1 & BOXNR (CC),75 kmph,75 kmph
+Tank wagons (BTPN & BTFLN etc.) (CC),75 kmph,75 kmph
+BOBRN (CC),75 kmph,75 kmph
+BOXN (CC+6+2),,
+BOXN,60 kmph,80 kmph
+BOXNS,50 kmph,80 kmph
+BCN (CC+6+2) Full Rake,75 kmph,"80 kmph (SR 60 kmph over bridges: Panval viaduct at KM 211/0-5, Mandovi-II at KM 408/0-1, Mandovi-I at KM 410/2-6, Zuari at KM 422/7-423/4)"
+BOST,75 kmph,80 kmph
+BOST (CC+6+2),50 kmph,80 kmph
+BTPGLN,75 kmph,80 kmph
+BFNV,50 kmph,"100 kmph (45 kmph on Bridge No.1101 Mandovi-I bridge at km 410/1-410/3 in THVM-KRMI section, 45 kmph on bridge no. 1143 Zuari bridge at km 423/0 - 423/3 in KRMI-VEN.)"
